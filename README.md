@@ -23,7 +23,7 @@ The PDF Text Extraction is a Python program designed to extract and analyze pati
 
 ## Sample Output Of My PDFs
 
-Age: 52.00
-Dob: 02/02/1971
-has_valid_ekg : False
+Age: 52.00  
+Dob: 02/02/1971  
+has_valid_ekg : False  
 Name: “John Doe The Second”
