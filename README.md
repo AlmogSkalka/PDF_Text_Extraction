@@ -1,6 +1,6 @@
 # PDF Text Extraction
 
-The PDF Text Extraction is a Python program designed to extract and analyze patient information from PDF documents, specifically medical charts. It uses the `pdfplumber` library to extract textual data from PDF files and provides insights into patient data such as age, date of birth, and EKG validity.
+The PDF Text Extraction is a Python program designed to extract and analyze patient information from PDF documents, specifically medical charts. It utilizes Object-Oriented Programming (OOP) principles and data structures to efficiently process and organize the extracted data, along to utilizing external Python library, `pdfplumber` for data extraction.
 
 ## Features
 
@@ -13,6 +13,14 @@ The PDF Text Extraction is a Python program designed to extract and analyze pati
 
 - Python 3.7+
 - `pdfplumber` library (`pip install pdfplumber`)
+
+## Object-Oriented Approach
+
+The program employs an Object-Oriented approach to represent patient charts and their data. The `Chart` class encapsulates patient attributes such as name, date of birth, and EKG validity. This design promotes code organization, readability, and reusability.
+
+## Data Extraction and Organization
+
+The program uses data structures to efficiently organize extracted text data from PDF files. The `PagesToWords` dictionary maps page numbers to lists of `TextualWord` objects, representing individual words with associated coordinates. This data structure enables effective grouping and analysis of patient information.
 
 ## How to Use
 
