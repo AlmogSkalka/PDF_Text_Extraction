@@ -30,8 +30,9 @@ The program utilizes the `pdfplumber` library to extract textual data from PDF f
 
 These attributes are used to identify and organize patient information within the PDF medical charts. This way, we are able to determine if a word is located at the start of a new text line or not.
 
-- Example Output of get\*pdf*content:  
-  \0: [TextualWord(x0=72.025, x1=108.875, text='Patient')*
+### Example Output of get_pdf_content:
+
+\*0: [TextualWord(x0=72.025, x1=108.875, text='Patient')\*
 
 ## Sample Output
 
