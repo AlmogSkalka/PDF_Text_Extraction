@@ -17,6 +17,7 @@ The PDF Text Extraction is a Python program designed to extract and analyze pati
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Object-Oriented Approach
 
@@ -62,4 +63,7 @@ Name: Jane Smith
 
 - PDF files must be properly formatted medical charts with relevant patient information.
 - The program assumes a specific format for patient details, including "Name:", "DOB:", and "EKG".
+
+```
+
 ```
