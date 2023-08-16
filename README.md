@@ -13,6 +13,10 @@ The PDF Text Extraction is a Python program designed to extract and analyze pati
 
 - Python 3.7+
 - `pdfplumber` library (`pip install pdfplumber`)
+- To install the required dependencies for this project, you can use the `requirements.txt` file. Run the following command in your virtual environment:
+
+```bash
+pip install -r requirements.txt
 
 ## Object-Oriented Approach
 
@@ -44,17 +48,18 @@ _0: [TextualWord(x0=72.025, x1=108.875, text='Patient')_
 
 ## Sample Output
 
-Age: 53.00  
-Dob: 01/15/1969  
-has_valid_ekg: valid  
+Age: 53.00
+Dob: 01/15/1969
+has_valid_ekg: valid
 Name: John Doe
 
-Age: 42.00  
-Dob: 07/21/1979  
-has_valid_ekg: not valid  
+Age: 42.00
+Dob: 07/21/1979
+has_valid_ekg: not valid
 Name: Jane Smith
 
 ## Note
 
 - PDF files must be properly formatted medical charts with relevant patient information.
 - The program assumes a specific format for patient details, including "Name:", "DOB:", and "EKG".
+```
