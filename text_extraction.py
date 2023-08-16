@@ -11,7 +11,7 @@ PagesToWords = Dict[int, List[TextualWord]]
 # took this out of 'populate_chart' to organize and have better vision for myself
 # There might be an extra for loop ATM, but we can omit it as the data is relatively small in my examples
 def get_pdf_lines(page_to_words: PagesToWords) -> list:
-    #get_pdf_lines is not completed yet. The logic listed is not correct yet.
+    # get_pdf_lines is not completed yet. The logic listed is not correct yet.
     lines = []
     first_x0 = -1
     for page, words in page_to_words.items():
@@ -56,8 +56,6 @@ def get_pdf_content(pdf_folder: str) -> PagesToWords:
             page_words = []
             for word in words:
                 text_word = TextualWord(x0=word["x0"], x1=word["x1"], text=word["text"])
-                print("word: ")
-                print(word)
                 page_words.append(text_word)
             pageNumToContent[pageNum] = page_words
             pageNum += 1
