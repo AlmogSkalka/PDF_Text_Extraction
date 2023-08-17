@@ -63,7 +63,3 @@ Name: Jane Smith
 
 - PDF files must be properly formatted medical charts with relevant patient information.
 - The program assumes a specific format for patient details, including "Name:", "DOB:", and "EKG".
-
-```
-
-```
